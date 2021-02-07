@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="APlayer.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Online streaming website</title>
+    <style>
+        body{
+            background-color: #f7f7f7;
+            font-family: Open sans;
+        }
+        .main{
+            padding:40px 0;
+
+        }
+        .col-md-3{
+            margin-bottom: 40px;
+            margin: 0px;
+        }
+        .album-poster{
+            position: relative;
+            display: block;
+            border-radius: 7px;
+            overflow: hidden;
+            box-shadow: 0 15px 35px #3d2173a1;
+            transition: all ease 0.4s;
+            width: 200px;
+        }
+        .album-poster:hover{
+          box-shadow: none;
+          transform: scale(0.98) translateY(5px);
+        }
+        h3{
+            font-size: 34px;
+            margin-bottom:34px;
+            border-bottom:4px solid #e6e6e6;
+            padding-bottom: 15px;
+            
+        }
+        p{
+            font-size: 15px;
+
+        }
+        h4{
+            font-size: 15px;
+            text-transform: uppercase;
+            margin-top: 15px;
+            font-weight:700 ;
+        }
+        body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+  
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+       
+    </style>
+  </head>
+  <body>
+    <nav>
+        <div class="logo">
+           <img src="Images/b49080c4-cb07-4fe2-832a-a7c2b6068394_200x200.png" height="80px">
+        </div>
+        <label for="btn" class="icon">
+        <span class="fa fa-bars"></span>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+           <li><a href="#">Home</a></li>
+           <li>
+              <label for="btn-1" class="show">Features +</label>
+              <a href="#">Features</a>
+              <input type="checkbox" id="btn-1">
+              <ul>
+                 <li><a href="#">Pages</a></li>
+                 <li><a href="#">Elements</a></li>
+                 <li><a href="#">Icons</a></li>
+              </ul>
+           </li>
+           <li>
+              <label for="btn-2" class="show">Services +</label>
+              <a href="#">Services</a>
+              <input type="checkbox" id="btn-2">
+              <ul>
+                 <li><a href="#">Web Design</a></li>
+                 <li><a href="#">App Design</a></li>
+                 <li>
+                    <label for="btn-3" class="show">More +</label>
+                    <a href="#">More <span class="fa fa-plus"></span></a>
+                    <input type="checkbox" id="btn-3">
+                    <ul>
+                       <li><a href="#">Submenu-1</a></li>
+                       <li><a href="#">Submenu-2</a></li>
+                       <li><a href="#">Submenu-3</a></li>
+                    </ul>
+                 </li>
+              </ul>
+           </li>
+           <li><a href="#">category</a></li>
+           <li><a href="#">Contact</a></li>
+        </ul>
+     </nav>
+
+     <button onclick="myFunction()"> <i class="fas fa-moon"></i></button>
+   <div class="main">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12">
+                   <h3>New Releases</h3>
+               </div> 
+               <div class="col-md-3">
+                   <a href="javascript:void();" class="album-poster">
+                       <img src="Images/pexels-laura-stanley-2147029.jpg" height="250px" width="200px">
+                       <embed
+                       src="Images/Le Chhalaang - Daler Mehndi.mp3.mp3"
+                       preload="False"
+                       width="200"
+                       height="100"
+                       loop="false"
+                       >
+                   </a>
+                  
+                   <h4>Le chhalaang</h4>
+                   <p>Chhalaang</p>
+               </div>
+               <br>
+               
+            
+            <div class="col-md-3">
+                <a href="javascript:void();" class="album-poster">
+                    <img src="Images/pexels-laura-stanley-2147029.jpg" height="250px" width="200px">
+                </a>
+                <h4>Arjit-singh</h4>
+                <p>Arjit-singh hits 2020</p>
+            </div>
+            <div class="col-md-3">
+                <a href="javascript:void();" class="album-poster">
+                    <img src="Images/pexels-laura-stanley-2147029.jpg" height="250px" width="200px">
+                </a>
+                <h4>Arjit-singh</h4>
+                <p>Arjit-singh hits 2020</p>
+            </div>
+            <div class="col-md-3">
+                <a href="javascript:void();" class="album-poster">
+                    <img src="Images/pexels-laura-stanley-2147029.jpg" height="250px" width="200px" >
+                   
+                </a>
+                <h4>Arjit-singh</h4>
+                <p>Arjit-singh hits 2020</p>
+            </div>
+            
+            
+           
+           </div>
+           <div class="row">
+            <div class="col-md-12">
+                <h3>KK song collection</h3>
+            </div> 
+            <div class="col-md-3">
+                <a href="javascript:void();" class="album-poster">
+                    <img src="Images/kk.jpg" height="250px" width="200px">
+                    <embed
+                       src="Images/Labon-Ko (SongsMp3.Com).mp3"
+                       preload="False"
+                       width="200"
+                       height="100"
+                       loop="false"
+                       >
+                </a>
+                <h4>Laboon Ko</h4>
+                <p>KK hit songs</p>
+            </div>
+            <br>
+            <div class="col-md-3">
+             <a href="javascript:void();" class="album-poster">
+                 <img src="Images/kk.jpg" height="250px" width="200px">
+                 <embed
+                 src="Images/Beete-Lamhe (SongsMp3.Com).mp3"
+                 preload="False"
+                 width="200"
+                 height="100"
+                 loop="false"
+                 >
+          </a>
+             
+             <h4>Beete-Lamhe</h4>
+             <p>KK hit songs</p>
+         </div>
+         <div class="col-md-3">
+             <a href="javascript:void();" class="album-poster">
+                 <img src="Images/kk.jpg" height="250px" width="200px">
+                 <embed
+                 src="Images/Khuda-Jaane (SongsMp3.Com).mp3"
+                 preload="False"
+                 width="200"
+                 height="100"
+                 loop="false"
+                 >
+          </a>
+            
+             <h4>Khuda jaane</h4>
+             <p>KK hit songs</p>
+         </div>
+         <div class="col-md-3">
+             <a href="javascript:void();" class="album-poster">
+                 <img src="Images/kk.jpg" height="250px" width="200px">
+             </a>
+             <h4>kk</h4>
+             <p>kk hit songa</p>
+         </div>
+         <div class="col-md-3">
+             <a href="javascript:void();" class="album-poster">
+                 <img src="Images/kk.jpg" height="250px" width="200px">
+             </a>
+             <h4>kk</h4>
+             <p>kk hit songs</p>
+         </div>
+         
+         
+        
+        </div>
+
+    
+
+       </div>
+   </div>
+   <div class="aplayer"></div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script>
+    <script src="app.js"></script>
+    <script>
+   const ap = new APlayer({
+    container: document.getElementById('aplayer'),
+    listFolded:true,
+    audio: [{
+        name: 'Le chalang',
+        artist: 'Arjit singh',
+        url:"Images/Le Chhalaang Daler Mehndi.mp3",
+        cover: ''
+    }]
+});
+
+    </script>
+    <script>
+        function myFunction() {
+           var element = document.body;
+           element.classList.toggle("dark-mode");
+        }
+        </script>
+  </body>
+</html>
